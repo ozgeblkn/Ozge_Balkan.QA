@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Insider Test Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Insider Career Flow Test(failed)" verbose="0">
+    <classes>
+      <class name="pkt.tests.InsiderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testInsiderCareerFlow"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pkt.tests.InsiderTest -->
+    </classes>
+  </test> <!-- Insider Career Flow Test(failed) -->
+</suite> <!-- Failed suite [Insider Test Automation Suite] -->

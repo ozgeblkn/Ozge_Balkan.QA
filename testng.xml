@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insider Test Automation Suite">
+    <test name="Insider Career Flow Test">
+        <classes>
+            <class name="pkt.tests.InsiderTest"/>
+        </classes>
+    </test>
+</suite> 
